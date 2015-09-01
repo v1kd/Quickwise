@@ -1,0 +1,2 @@
+# Quickwise
+Have you ever had a problem on you much did you spend in a group in Splitwise? Quickwise lets you know quickly the amount you paid, received, spent, owe quickly and easily. Login credentials not required. Account information not required. Just open your Splitwise page and go to the "view printable summary" link and click on the Quickwise icon. You will get a table of all the members in the group and all of your spend information.
