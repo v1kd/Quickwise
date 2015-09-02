@@ -1,23 +1,20 @@
 {
-  "manifest_version": 2,
-  "name": "Quickwise",
-  "short_name": "Quickwise",
-  "description": "Quickwise is a quick and easy way to see your Splitwise information.",
-  "version": "0.0.1",
-  "minimum_chrome_version": "38",
-
-  "icons": {
-    "16": "icons/icon_16.png",
-    "128": "icons/icon_128.png"
-  },
-  
-  "browser_action": {
-    "default_icon": "icons/favicon.ico",
-    "default_popup": "popup.html"
-  },
-  
-  "permissions": [
-     "tabs",
-     "https://secure.splitwise.com/api/v3.0/get_printable_summary"
-   ]
+   "browser_action": {
+      "default_icon": "icons/icon_16.png",
+      "default_popup": "popup.html"
+   },
+   "description": "Quickwise is a quick and easy way to see your Splitwise information.",
+   "icons": {
+      "128": "icons/icon_128.png",
+      "16": "icons/icon_16.png",
+      "48": "icons/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiv7lhTaodQ89VSf4EMSkkvorzviVkZiEmi7tK0BgYK8kzQ/E201jDCI/dnPa4GQLHu+gkM/HM/d/wVTc81iwb20SRSmsFGorWgjjCnGxN4TL4nPvOKkyCMjjVO5hdgEEAhqRD8n52lkBBf5eZJ0cUzbEL4cziGJBwojzYYjLfqrkO2MHNyOxPFVQi/nX2/t0Qg3AcV42F86ajav+y5Kk0FsWzOTYo+dDYmnoPtp3vEnbTKbefFcPZ2Fzw1O/ACETIBA7doaAD2uDFlMNknW3lyYAVdZiWshDBeP7Ohkmj+6Skf54fB76lBhQk+zaeNdp2gj548JfL+ptXsjSdIRKuQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "38",
+   "name": "Quickwise",
+   "permissions": [ "tabs", "https://secure.splitwise.com/api/v3.0/get_printable_summary" ],
+   "short_name": "Quickwise",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1"
 }

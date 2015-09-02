@@ -45,7 +45,7 @@ function getData(d, w) {
     
   }
   
-  console.log(data);
+  // console.log(data);
   
   return data;
 }

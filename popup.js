@@ -1,3 +1,5 @@
+
+
 defaults = {
   url : 'https://secure.splitwise.com/api/v3.0/get_printable_summary',
   errorMsg : '<span class="glyphicon glyphicon-remove"></span> '
@@ -19,7 +21,7 @@ chrome.extension.onMessage.addListener(function(request, sender) {
   if (request.action == "getSource") {
     // message.innerText = request.source;
     var data = request.source;
-    console.log(data);
+    // console.log(data);
     loadData(data);
   }
 });
